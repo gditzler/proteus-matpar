@@ -11,7 +11,7 @@ matlabpool open local 12
 parfor i = 1:q
   z(i) = rand;
 end
-save('whatever.mat');
+save('whatever_parallel.mat');
 disp('Im done!')
 
 matlabpool close force 

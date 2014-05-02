@@ -8,6 +8,7 @@ z = zeros(q,1);
 for i = 1:q
   z(i) = rand;
 end
-save('whatever.mat');
+
+save('whatever_serial.mat');
 disp('Im done!')
 
