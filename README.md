@@ -14,6 +14,6 @@ it looks like the cluster in not letting matlab use its built in parallel comput
 
 ## does not produce an output
 ```bash 
-  qsub serial-example.sh &  
+  qsub parallel-example.sh &  
 ```
 
